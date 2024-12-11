@@ -1,14 +1,23 @@
-   # README.md Generator
+  # Vehicle Builder
   
   ## Description
-**What:** This project is to generate a Readme File, prompting the User of what is needed for a Professional ReadMe.
+  What:
+- This allows the user to either create a new vehicle or select an existing one.
 
-**Why:** This will allow Users to quickly create a professional README for their new projects without having to remember everything they need to include.
+- After completing the creation or selection process, the user can perform various actions with the selected vehicle.
 
-**How:** This application is invoked by using the following command: node index.js.
+-  Once an action is completed, the user is returned to the actions menu, where they can continue interacting with the application or choose to exit.
 
-**How was this project built:** I modified a starter code to create a command-line application that dynamically generates a professional README.md file from a User's input by using the inquirer package.
+How:
+- I'm updating an existing application to include vehicle types.
 
+Why:
+- So the User can create a new vehicle or select an existing one.
+
+How was this project built:
+- I modified the starter code and I also downloaded my README Generator file to help me generate a README file.
+
+  
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
@@ -17,83 +26,58 @@
   - [License](#license)
   
   ## Installation
+  Will be updated later
 
-### Node.js Installation
-To get started, ensure that Node.js is installed on your computer. Open your command line and type node -v. If Node.js is installed, this will display the version number. If not, visit **Node.js Official Website and download the LTS version.**
 
-**For Windows:** Look for the section labeled Download for Windows (x64).
-**For macOS:** Look for the section labeled Download for macOS (x64).
-
-### Cloning the Repository
-**Once Node.js is set up, follow these steps to clone this repository:**
-1. Click the green Code button on the repository page and copy the provided link.
-2. Open your preferred code editor and launch the terminal.
-3. Use the cd command in the terminal to navigate to the directory where you want to clone the repository.
-4. Finally, run the following command: git clone <repo-link>. Note to replace the <repo-link> with the link you copied earlier.
-
-### Installing Inquirer
-This project requires the **Inquirer npm package**. Since inquirer isn't included with **Node.js** by default, follow these steps:
-1. Run npm init in your terminal to initialize npm in your project directory
-2. Navigate to the app.js file, then run the following command to install the Inquirer: npm install inquirer
-3. For additional information or documentation about inquirer and other npm packages, visit: https://www.npmjs.com/ and use the search bar to find the package you need.
   
   ## Usage
-### Usage Instructions:
+  How the prompts work:
 
-When you first clone the repository, your directory should match the folder structure and files shown in the example below.
+The User will be given a command-line application that accepts the User Input.
 
-### Generating the README:
-1. Use the cd command to navigate to the directory where the README-generator is located.
-2. On the terminal, type: node index This will start the program and prompt you with a series of questions. Don't worry if you are not too sure what to input! Check my comments to guide you for  what you need for each section.
-3. For each question:
-- Enter your response and press Enter when you're ready to move on (if you are in a Text Editor, you will use the commands for the Text Editor that you are using).
-- Important: Saving your response will move you to the next prompt. Once a response is saved, you cannot edit it through the terminal. However, you can make changes later directly in the generated README.md file using your code editor (you can also do so on you GitHub repo - although it is best practice to do it in your code editor. Don't be like me)
-4. After completing all questions, you'll see a message in the terminal: The file has been saved!
-5. Open the explorer tab in your code editor to find the newly generated README.md file. Make edits if needed.
+1. When the User is prompted to create a new vehicle, or an existing vehicle, then they can choose between two options
+2. When the User is prompted to choose the vehicle type during creation, then they can choose between car, truck, and motorbike
+3. When the User is prompted for the details about the vehicle, then they can the vehicle information
+4. Once the User have entered all the vehicle information, then they can use the created vehicle
+5. If the User selects an existing vehicle, then they can perform actions with that vehicle
+6. When the User performs an action with a vehicle, then they can see the result in the command-line
+7. Then once the User completes the process of performing an action, then they can perform additional actions until they choose to exit
 
-![Screenshot 2024-12-10 at 6 03 13 PM](https://github.com/user-attachments/assets/b83e05f3-ea5c-422c-97ad-482aba8da083)
+Note:
+- Developers can clone, fork, or download this repo as a Zip File
+- This repo has the Develop Starter Codes, and the README.md generator file
 
-![Screenshot 2024-12-10 at 6 04 43 PM](https://github.com/user-attachments/assets/34ad13b7-ec67-46b5-b874-eab7d12329be)
+Visual Walkthrough: For a step by step demo of creating the README, watch the walkthrough video here: (upcoming)
 
-![Screenshot 2024-12-10 at 6 04 18 PM](https://github.com/user-attachments/assets/b776324f-678f-4e5a-bf15-40408afd3590)
-
-![Screenshot 2024-12-10 at 6 03 59 PM](https://github.com/user-attachments/assets/e9322663-45f6-4a7a-b0fb-9fef3cfcc93a)
-
-### Committing and Pushing the README:
-**Once you're satisfied with the README file:**
-1. Add and commit the changes using the following commands: git add -A and then git commit -m "Add README file"
-2. Push the file to the repository with: git push origin main
-
-Then c'est viola! Your README is now live in the repository!
-
-**Visual Walkthrough:**
-For a step by step demo of creating the README, watch the walkthrough video here: (upcoming)
-
+  
   ## Contributing
-### My references:
+  My references:
 
-**NPM Package:** https://www.npmjs.com/
+- NPM Package: https://www.npmjs.com/
 
-**Professional README Guide:** https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+- Professional README Guide: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
-**Video Submission Guide:** https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide
+- Video Submission Guide: https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide
 
-**Inquirer.js:** https://www.npmjs.com/package/inquirer#installation
+- Inquirer.js: https://www.npmjs.com/package/inquirer#installation
 
-**What is node.js YouTube tutorial:** https://www.youtube.com/watch?v=TlB_eWDSMt4 _(if you are new to node.js and would like a quick lesson of what it is)
-_
+- What is node.js YouTube tutorial: https://www.youtube.com/watch?v=TlB_eWDSMt4 (if you are new to node.js and would like a quick lesson of what it is)
 
+- ClassesLinks to an external site. https://www.typescriptlang.org/docs/handbook/2/classes.html
+
+- Object typesLinks to an external site. https://www.typescriptlang.org/docs/handbook/2/objects.html#index-signatures
+
+- Everyday typesLinks to an external site. https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
+
+- More on functionsLinks to an external site. https://www.typescriptlang.org/docs/handbook/2/functions.html
+
+- Working with folders in Node.js https://nodejs.org/en/learn/manipulating-files/working-with-folders-in-nodejs
+
+  
   ## Tests
-### To Test it out:
-1. Simply type node index.js on your command line (or terminal)
-2. You can input anything as your answers for the prompts. I even used Doge Coin Tester or simply just Test many times
-3. If you are going to add another prompt, make sure you reference the generateMarkdown.js as well, or else whatever you added is just gunna float somewhere in the void (because how would the computer know that you want that in your Mardkdown too, right?)
+  Will be updated
 
-### Note:
-If you would like to modify the code and to add more prompts, simply add it in! 
-
-_P.S. don't forget to close a bracket and a comma like I did ahhaha._
-
+  
   ## License
   MIT
       
