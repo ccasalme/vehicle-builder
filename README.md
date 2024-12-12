@@ -26,7 +26,9 @@
   - [License](#license)
   
   ## Installation
-  Will be updated later
+  In order to run this application, you must have node.js installed in your computer. If you don't have it installed yet, you can head over to [NodeJS.org](https://nodejs.org/en).
+
+  
 
 
   
@@ -53,26 +55,27 @@ Visual Walkthrough: For a step by step demo of creating the README, watch the wa
   ## Contributing
   **My references:**
 
-- [NPM Package: (https://www.npmjs.com/)]
+- [NPM Package:] (https://www.npmjs.com/)
 
-- [Professional README Guide: (https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)]
+- [Professional README Guide:] (https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
-- [Video Submission Guide: (https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide)]
+- [Video Submission Guide:] (https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide)
 
-- [Inquirer.js: (https://www.npmjs.com/package/inquirer#installation)]
+- [Inquirer.js:] (https://www.npmjs.com/package/inquirer#installation)
 
-- [What is node.js YouTube tutorial: (https://www.youtube.com/watch?v=TlB_eWDSMt4)] (if you are new to node.js and would like a quick lesson of what it is)
+- [What is node.js YouTube tutorial:] (https://www.youtube.com/watch?v=TlB_eWDSMt4) (if you are new to node.js and would like a quick lesson of what it is)
 
-- [ClassesLinks to an external site. (https://www.typescriptlang.org/docs/handbook/2/classes.html)]
+- [ClassesLinks to an external site.] (https://www.typescriptlang.org/docs/handbook/2/classes.html)
 
-- [Object typesLinks to an external site. (https://www.typescriptlang.org/docs/handbook/2/objects.html#index-signatures)]
+- [Object typesLinks to an external site.] (https://www.typescriptlang.org/docs/handbook/2/objects.html#index-signatures)
 
-- [Everyday typesLinks to an external site. (https://www.typescriptlang.org/docs/handbook/2/everyday-types.html)]
+- [Everyday typesLinks to an external site.] (https://www.typescriptlang.org/docs/handbook/2/everyday-types.html)
 
-- [More on functionsLinks to an external site. (https://www.typescriptlang.org/docs/handbook/2/functions.html)]
+- [More on functionsLinks] (https://www.typescriptlang.org/docs/handbook/2/functions.html)
 
-- [Working with folders in Node.js (https://nodejs.org/en/learn/manipulating-files/working-with-folders-in-nodejs)]
+- [Working with folders in Node.js] (https://nodejs.org/en/learn/manipulating-files/working-with-folders-in-nodejs)
 
+- [Download NodeJS here:] (https://nodejs.org/en)
   
   ## Tests
   Will be updated
