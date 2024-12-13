@@ -75,7 +75,9 @@ Visual Walkthrough: For a step by step demo of creating the README, watch the wa
 
 - [Working with folders in Node.js] (https://nodejs.org/en/learn/manipulating-files/working-with-folders-in-nodejs)
 
-- [If you want try this out, but don't know how TypeScript works, check out first: TypeScript Tutorial for Beginner (https://www.youtube.com/watch?v=d56mG7DezGs)]
+- [If you want try this out, but don't know how TypeScript works, check out first: TypeScript Tutorial for Beginner] (https://www.youtube.com/watch?v=d56mG7DezGs)
+
+- [Check out: TypeScript here:] (https://www.typescriptlang.org/docs/)
 
 - [Download NodeJS here:] (https://nodejs.org/en)
   
