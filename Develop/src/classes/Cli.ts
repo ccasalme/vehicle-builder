@@ -266,8 +266,7 @@ class Cli {
           parseInt(answers.year),
           parseInt(answers.weight),
           parseInt(answers.topSpeed),
-          frontWheel,
-          rearWheel
+          [frontWheel, rearWheel]
         );
         this.vehicles.push(motorbike);
         this.selectedVehicleVin = motorbike.vin;
