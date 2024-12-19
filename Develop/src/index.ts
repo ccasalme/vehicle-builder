@@ -43,7 +43,7 @@ const motorbike1 = new Motorbike(
 
 // push vehicles to array
 // TODO: uncomment once trucks are implemented
-vehicles.push(truck1);
+vehicles.push(Truck);
 vehicles.push(car1);
 // TODO: uncomment once motorbikes are implemented
 vehicles.push(motorbike1);

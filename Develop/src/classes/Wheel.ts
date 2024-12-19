@@ -16,7 +16,7 @@ class Wheel {
   }
 
   // Setter method for the diameter property
-  get getTireBrand(): string {
+  get getTireBrandValue(): string {
     return this.tireBrand;
   }
 }

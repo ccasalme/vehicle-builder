@@ -39,7 +39,7 @@ constructor(
     weight: number,
     topSpeed: number,
     frontWheel: Wheel,
-    rearWheel: Wheel[]
+    rearWheel: Wheel
   ) {
     // Call the parent class constructor
     super();
@@ -88,3 +88,4 @@ constructor(
 
 // Export the Motorbike class as the default export
 export default Motorbike;
+
