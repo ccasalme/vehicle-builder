@@ -57,10 +57,10 @@ var Car = /** @class */ (function (_super) {
         console.log("Weight: ".concat(this.weight, " lbs"));
         console.log("Top Speed: ".concat(this.topSpeed, " mph"));
         // Print details of the wheels
-        console.log("Wheel 1: ".concat(this.wheels[0].getDiameter, " inch with a ").concat(this.wheels[0].getTireBrand, " tire"));
-        console.log("Wheel 2: ".concat(this.wheels[1].getDiameter, " inch with a ").concat(this.wheels[1].getTireBrand, " tire"));
-        console.log("Wheel 3: ".concat(this.wheels[2].getDiameter, " inch with a ").concat(this.wheels[2].getTireBrand, " tire"));
-        console.log("Wheel 4: ".concat(this.wheels[3].getDiameter, " inch with a ").concat(this.wheels[3].getTireBrand, " tire"));
+        console.log("Wheel 1: ".concat(this.wheels[0].getDiameter, " inch with a ").concat(this.wheels[0].getTireBrandValue, " tire"));
+        console.log("Wheel 2: ".concat(this.wheels[1].getDiameter, " inch with a ").concat(this.wheels[1].getTireBrandValue, " tire"));
+        console.log("Wheel 3: ".concat(this.wheels[2].getDiameter, " inch with a ").concat(this.wheels[2].getTireBrandValue, " tire"));
+        console.log("Wheel 4: ".concat(this.wheels[3].getDiameter, " inch with a ").concat(this.wheels[3].getTireBrandValue, " tire"));
     };
     return Car;
 }(Vehicle_js_1.default));

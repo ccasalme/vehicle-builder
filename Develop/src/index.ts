@@ -9,7 +9,7 @@ import Cli from "./classes/Cli.js";
 const vehicles = [];
 
 // TODO: uncomment once trucks are implemented
-// const truck1 = new Truck(Cli.generateVin(),"red", "Ford", "F-150", 2021, 5000, 120, [], 10000);
+const truck1 = new Truck(Cli.generateVin(),"red", "Ford", "F-150", 2021, 5000, 120, [], 10000);
 
 // will use default wheels
 const car1 = new Car(
@@ -24,21 +24,21 @@ const car1 = new Car(
 );
 
 // TODO: uncomment once motorbikes are implemented
-// const motorbike1Wheels = [new Wheel(17, "Michelin"), new Wheel(17, "Michelin")];
-// const motorbike1 = new Motorbike(Cli.generateVin(), "black", "Harley Davidson", "Sportster", 2021, 500, 125, motorbike1Wheels);
-
 const motorbike1Wheels = [new Wheel(17, "Michelin"), new Wheel(17, "Michelin")];
-const motorbike1 = new Motorbike(
-  Cli.generateVin(),
-  "black",
-  "Harley Davidson",
-  "Sportster",
-  2021,
-  500,
-  125,
-  motorbike1Wheels[0],
-  motorbike1Wheels[1]
-);
+const motorbike1 = new Motorbike(Cli.generateVin(), "black", "Harley Davidson", "Sportster", 2021, 500, 125, motorbike1Wheels);
+
+// const motorbike1Wheels = [new Wheel(17, "Michelin"), new Wheel(17, "Michelin")];
+// const motorbike1 = new Motorbike(
+//   Cli.generateVin(),
+//   "black",
+//   "Harley Davidson",
+//   "Sportster",
+//   2021,
+//   500,
+//   125,
+//   motorbike1Wheels[0],
+//   motorbike1Wheels[1]
+// );
 
 
 // push vehicles to array
