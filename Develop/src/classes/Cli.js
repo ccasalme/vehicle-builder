@@ -13,6 +13,7 @@ var Cli = /** @class */ (function () {
         // TODO: You will need to use the Union operator to define additional types for the array
         // TODO: See the AbleToTow interface for an example of how to use the Union operator
         this.vehicles = [];
+        this.exit = false;
         this.car = new Car_js_1.default('', '', '', '', 0, 0, 0, []);
         this.truck = new Truck_js_1.default('', '', '', '', 0, 0, 0, [], 0);
         this.motorbike = new Motorbike_js_1.default('', '', '', '', 0, 0, 0, []);
@@ -170,7 +171,7 @@ var Cli = /** @class */ (function () {
             // TODO: push the truck to the vehicles array
             // TODO: set the selectedVehicleVin to the vin of the truck
             // TODO: perform actions on the truck
-            var truck = new Truck_js_1.default(Cli.generateVin(), answers.color, answers.make, answers.model, parseInt(answers.year), parseInt(answers.weight), parseInt(answers.topSpeed), parseInt(answers.towingCapacity));
+            var truck = new Truck_js_1.default(Cli.generateVin(), answers.color, answers.make, answers.model, parseInt(answers.year), parseInt(answers.weight), parseInt(answers.topSpeed), [], parseInt(answers.towingCapacity));
             _this.vehicles.push(truck);
             _this.selectedVehicleVin = truck.vin;
             _this.performActions();
@@ -269,7 +270,7 @@ var Cli = /** @class */ (function () {
             // TODO: if it is not, tow the selected vehicle then perform actions on the truck to allow the user to select another action
             var vehicleToTow = answers.vehicleToTow;
             if (vehicleToTow) {
-                truck.tow(vehicleToTow);
+                _this.truck.tow(vehicleToTow);
             }
             _this.performActions();
         });
