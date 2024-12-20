@@ -7,17 +7,20 @@ import Wheel from "./Wheel.js";
 
 // define the Cli class
 class Cli {
+  car: Car;
+  truck: Truck;
+  motorbike: Motorbike;
   // TODO: update the vehicles property to accept Truck and Motorbike objects as well
   // TODO: You will need to use the Union operator to define additional types for the array
   // TODO: See the AbleToTow interface for an example of how to use the Union operator
-  vehicles: (Car | Truck | Motorbike)[];
+  vehicles: (Car | Truck | Motorbike)[] = [];
   selectedVehicleVin: string | undefined;
-  exit: boolean = false;
-
-  // TODO: Update the constructor to accept Truck and Motorbike objects as well
   constructor(vehicles: (Car | Truck | Motorbike)[]) {
-    this.vehicles = vehicles;
-  }
+    this.car = new Car('', '', '', '', 0, 0, 0, []);
+    this.truck = new Truck('', '', '', '', 0, 0, 0, [], 0);
+    this.motorbike = new Motorbike('', '', '', '', 0, 0, 0, []);
+
+}
 
   // static method to generate a vin
   static generateVin(): string {
