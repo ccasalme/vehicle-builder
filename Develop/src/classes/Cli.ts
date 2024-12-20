@@ -15,6 +15,7 @@ class Cli {
   // TODO: See the AbleToTow interface for an example of how to use the Union operator
   vehicles: (Car | Truck | Motorbike)[] = [];
   selectedVehicleVin: string | undefined;
+  exit: boolean = false;
   constructor(vehicles: (Car | Truck | Motorbike)[]) {
     this.car = new Car('', '', '', '', 0, 0, 0, []);
     this.truck = new Truck('', '', '', '', 0, 0, 0, [], 0);
@@ -191,6 +192,7 @@ class Cli {
           parseInt(answers.year),
           parseInt(answers.weight),
           parseInt(answers.topSpeed),
+          [],
           parseInt(answers.towingCapacity)
         );
         this.vehicles.push(truck);
@@ -300,7 +302,7 @@ class Cli {
         // TODO: if it is not, tow the selected vehicle then perform actions on the truck to allow the user to select another action
         const vehicleToTow = answers.vehicleToTow;
         if (vehicleToTow) {
-          truck.tow(vehicleToTow);
+          this.truck.tow(vehicleToTow);
         }
         this.performActions();
       });
