@@ -42,7 +42,7 @@ This project enhances an existing application to allow users to easily create, m
   - [License](#license)
   
 ## Installation
- To run this application, ensure Node.js is installed on your computer. If not, download it from [(NodeJS.org)].
+ To run this application, ensure Node.js is installed on your computer. If not, download it from (https://nodejs.org/en).
 
  ### Steps:
  1. Clone the repository
