@@ -70,11 +70,11 @@ This project enhances an existing application to allow users to easily create, m
 
 - If selecting an existing vehicle, the user can perform actions directly.
 
-
-
 - Actions and their results are displayed in the command-line interface.
 
 - The user can continue interacting with the application or exit at any time.
+
+![Screenshot 2024-12-19 at 10 28 47 PM](https://github.com/user-attachments/assets/318e3193-a9a0-4264-972d-dd8a8ea3c9db)
 
 **How to initiate the Prompts:**
 - Navigate to the Develop Folder by running the following command in your terminal:
