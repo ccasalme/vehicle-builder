@@ -29,7 +29,7 @@ var motorbike1 = new Motorbike_js_1.default(Cli_js_1.default.generateVin(), "bla
 // );
 // push vehicles to array
 // TODO: uncomment once trucks are implemented
-vehicles.push(Truck_js_1.default);
+vehicles.push(truck1);
 vehicles.push(car1);
 // TODO: uncomment once motorbikes are implemented
 vehicles.push(motorbike1);
