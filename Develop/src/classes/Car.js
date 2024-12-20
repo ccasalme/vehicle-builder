@@ -37,7 +37,7 @@ var Car = /** @class */ (function (_super) {
         // If not, create 4 new Wheel objects
         // Otherwise, use the provided wheels array
         if (wheels.length !== 4) {
-            _this.wheels = [new Wheel_js_1.default(), new Wheel_js_1.default()];
+            _this.wheels = [new Wheel_js_1.default(), new Wheel_js_1.default(), new Wheel_js_1.default(), new Wheel_js_1.default()];
         }
         else {
             _this.wheels = wheels;
