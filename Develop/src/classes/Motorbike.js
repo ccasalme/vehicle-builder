@@ -49,8 +49,8 @@ var Motorbike = /** @class */ (function () {
         console.log("Weight: ".concat(this.weight, " lbs"));
         console.log("Top Speed: ".concat(this.topSpeed, " mph"));
         // Print details of the wheels
-        console.log("Wheel 1: ".concat(this.wheels[0].getDiameter, " inch with a ").concat(this.wheels[0].getTireBrand, " tire"));
-        console.log("Wheel 2: ".concat(this.wheels[1].getDiameter, " inch with a ").concat(this.wheels[1].getTireBrand, " tire"));
+        console.log("Wheel 1: ".concat(this.wheels[0].getDiameter, " inch with a ").concat(this.frontWheel[0].getTireBrand, " tire"));
+        console.log("Wheel 2: ".concat(this.wheels[1].getDiameter, " inch with a ").concat(this.rearWheel[1].getTireBrand, " tire"));
     };
     return Motorbike;
 }());
