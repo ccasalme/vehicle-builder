@@ -29,6 +29,13 @@ var Truck = /** @class */ (function (_super) {
         // Call the parent class constructor
         var _this = _super.call(this) || this;
         // Initialize Truck-specific properties
+        _this.vin = vin;
+        _this.color = color;
+        _this.make = make;
+        _this.model = model;
+        _this.year = year;
+        _this.weight = weight;
+        _this.topSpeed = topSpeed;
         _this.towingCapacity = towingCapacity;
         _this.wheels = wheels.length === 4 ? wheels : Array(4).fill(new Wheel_js_1.default(18, 'DefaultBrand'));
         return _this;

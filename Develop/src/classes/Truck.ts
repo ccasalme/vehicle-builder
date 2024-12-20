@@ -49,6 +49,13 @@ class Truck extends Vehicle implements AbleToTow {
     super();
 
     // Initialize Truck-specific properties
+    this.vin = vin;
+    this.color = color;
+    this.make = make;
+    this.model = model;
+    this.year = year;
+    this.weight = weight;
+    this.topSpeed = topSpeed;
     this.towingCapacity = towingCapacity;
     this.wheels = wheels.length === 4 ? wheels : Array(4).fill(new Wheel(18, 'DefaultBrand'));
   }
