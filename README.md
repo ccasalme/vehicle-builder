@@ -1,59 +1,78 @@
-  # Vehicle Builder
+# Vehicle Builder
   
-  ## Description
-  **What:**
-- This allows the user to either create a new vehicle or select an existing one.
+## Description
+Vehicle Builder is a command-line application built with TypeScript that allows users to create and manage various types of vehicles, including cars, trucks, and motorbikes. This interactive tool provides a streamlined interface for vehicle creation, selection, and performing specific actions tailored to each vehicle type.
 
-- After completing the creation or selection process, the user can perform various actions with the selected vehicle.
+### Features:
 
--  Once an action is completed, the user is returned to the actions menu, where they can continue interacting with the application or choose to exit.
+- Create new vehicles with custom specifications.
 
-**How:**
-- I'm updating an existing application to include vehicle types.
+- Select and manage existing vehicles.
+
+- Perform unique actions based on vehicle type.
+
+- Interactive command-line interface.
+
+- **Supports multiple vehicle types:**
+
+  - Cars
+
+  - Trucks
+
+  - Motorbikes
 
 **Why:**
-- So the User can create a new vehicle or select an existing one.
 
-**How was this project built:**
-- I modified the starter code and I also downloaded my README Generator file to help me generate a README file.
+This project enhances an existing application to allow users to easily create, manage, and interact with vehicles in a simple and efficient manner.
 
+**How:**
+
+- Utilizes TypeScript and Node.js for robust functionality.
+
+- Implements user prompts with Inquirer.js for an intuitive experience.
+
+- Features modular design, allowing seamless addition of vehicle types and actions.
   
-  ## Table of Contents
+  
+## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [License](#license)
   
-  ## Installation
-  In order to run this application, you must have node.js installed in your computer. If you don't have it installed yet, you can head over to [NodeJS.org](https://nodejs.org/en).
+## Installation
+ To run this application, ensure Node.js is installed on your computer. If not, download it from [(<NodeJS.org)].
 
+ ### Steps:
+ 1. Clone the repository
+ 2. Navigate to the project directory
+ 3. Install the dependencies (npm install)
   
-
-
   
-  ## Usage
-  **How the prompts work:**
+## Usage
+**How the prompts work:**
+- The user is presented with the option to create a new vehicle or select an existing one.
 
-_The User will be given a command-line application that accepts the User Input._
+- When creating a new vehicle, the user chooses the type (car, truck, or motorbike) and enters specific details.
 
-1. When the User is prompted to create a new vehicle, or an existing vehicle, then they can choose between two options
-2. When the User is prompted to choose the vehicle type during creation, then they can choose between car, truck, and motorbike
-3. When the User is prompted for the details about the vehicle, then they can the vehicle information
-4. Once the User have entered all the vehicle information, then they can use the created vehicle
-5. If the User selects an existing vehicle, then they can perform actions with that vehicle
-6. When the User performs an action with a vehicle, then they can see the result in the command-line
-7. Then once the User completes the process of performing an action, then they can perform additional actions until they choose to exit
+- The created vehicle can be used to perform various actions.
 
-Note:
+- If selecting an existing vehicle, the user can perform actions directly.
+
+- Actions and their results are displayed in the command-line interface.
+
+- The user can continue interacting with the application or exit at any time.
+
+**Note:**
 - Developers can clone, fork, or download this repo as a Zip File
 - This repo has the Develop Starter Codes, and the README.md generator file
 
 Visual Walkthrough: For a step by step demo of creating the README, watch the walkthrough video here: (upcoming)
 
   
-  ## Contributing
-  **My references:**
+## Contributing
+**My references:**
 
 - [NPM Package:] (https://www.npmjs.com/)
 
@@ -81,10 +100,10 @@ Visual Walkthrough: For a step by step demo of creating the README, watch the wa
 
 - [Download NodeJS here:] (https://nodejs.org/en)
   
-  ## Tests
-  Will be updated
-
+## Tests
+See video link here for a quick tutorial: [(tobeupdated)]
   
-  ## License
-  MIT
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
       
