@@ -8,10 +8,14 @@ var Motorbike_js_1 = require("./Motorbike.js");
 var Wheel_js_1 = require("./Wheel.js");
 // define the Cli class
 var Cli = /** @class */ (function () {
-    // TODO: Update the constructor to accept Truck and Motorbike objects as well
     function Cli(vehicles) {
-        this.exit = false;
-        this.vehicles = vehicles;
+        // TODO: update the vehicles property to accept Truck and Motorbike objects as well
+        // TODO: You will need to use the Union operator to define additional types for the array
+        // TODO: See the AbleToTow interface for an example of how to use the Union operator
+        this.vehicles = [];
+        this.car = new Car_js_1.default('', '', '', '', 0, 0, 0, []);
+        this.truck = new Truck_js_1.default('', '', '', '', 0, 0, 0, [], 0);
+        this.motorbike = new Motorbike_js_1.default('', '', '', '', 0, 0, 0, []);
     }
     // static method to generate a vin
     Cli.generateVin = function () {
